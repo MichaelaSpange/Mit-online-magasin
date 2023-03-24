@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+/*Det grundlæggende for min header*/
+
+    header {
+        border-bottom: solid 2px;
+        border-color: #F97ECF;
+        text-decoration: none;
+        padding: 0px 7%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #2481D6;
+        }
+
+/*Her styler jeg min nav bar*/
+
+    header .navbar ul {
+        list-style: none;
+        }
+
+    header .navbar ul li {
+        position: relative;
+        float: left;
+        }
+
+    header .navbar ul li ul {
+        position: absolute;
+        left: 0px;
+        width: 200px;
+        background: #2481D6;
+        display: none;
+        }
+
+/*Dropdown navbar - bl.a. stregerne mellem punkterne*/
+
+header .navbar ul li ul li {
+    width: 100%;
+    border-top: 1px solid #E1F1FF;
+    }
+
+header .navbar ul li ul li ul {
+    left: 200px;
+    top: 0px;
+    }
+
+header .navbar ul li a {
+    font-size: 12pt;
+    padding: 15px;
+    font-family: Urbanist;
+    color: white;
+    display: block;
+    }
+
+header .navbar ul li a:hover {
+    background: #E1F1FF;
+    color: #2481D6;
+    }
+
+
+header .navbar ul li:hover > ul {
+        display: initial; 
+        }
+
+/* Her er min footer*/
+
+footer {
+        border-top: solid 1px;
+        border-color: #F97ECF;
+        padding: 0.5%;
+        display:flex;
+        background-color: #2481D6;
+        }
+
+
+.button {
+        color: white;
+        background-color: #88BCEC;
+        padding: 7px 8px 7px 8px;
+        font-family: Urbanist;
+        letter-spacing: normal;
+        margin-left: 120px;
+        margin-right: 500px;
+        letter-spacing: 40%;
+        transition: 2s;
+        }
+        
+ .button:hover {
+            padding: 10px;
+        }
+
+/*Body*/
+body {
+        background-color: #E1F1FF;
+        }
+
+
+/* Alt min tekst */
+
+    h1 {
+        text-align: center;
+        color: #2481D6;
+        font-family: Urbanist;
+        font-size: 30pt;
+    }
+
+    h2 {
+        font-family: Urbanist;
+        font-size: 16pt;
+        text-align: center;
+        color: #575555;
+        margin-left: 20px;
+    }
+
+    h4 {
+        font-family: Libre Bodoni;
+        font-size: 24pt;
+        margin-left: 232px;
+        color: #2481D6;
+    }
+
+    h5 {
+        color: white;
+        font-family: Urbanist;
+        line-height: 1.3;
+        font-size: 12pt;
+       
+    }
+
+    h6 {
+        font-family: Urbanist;
+        line-height: 1.3;
+        color: #575555;
+        font-size: 15pt;
+    }
+    
+    
+    p {
+        color: black;
+        text-align: left;
+        font-family: Urbanist;
+        line-height: 1.3;
+        font-size: 12pt;
+    }
+
+
+/*Fed Tekst (Bold)*/
+    .b{
+        font-weight:800
+        }
+
+  
+
+/* Flexbox */
+
+    .flex-container {
+        display: flex;
+        margin: 4%;
+        padding: 4%;
+        background-color: #F97ECF;
+        justify-content:center;
+        justify-content: space-evenly;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    
+    .flex-container2 {
+        background-color: white;
+        width:50%;
+        height: 40%;
+        padding: 2%;
+        margin-left: 25%;
+    }  
+
+    .flex-container3 {
+        display: flex;
+        margin: 4%;
+        padding: 4%;
+        background-color: #FA632A;
+        justify-content:center;
+        justify-content: space-evenly;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .flex-container4 {
+        background-color: white;
+        width: 50%;
+        height: 40%;
+        margin-left: 25%;
+        padding: 2%;
+    }  
+
+    .div2 {
+        display: flex;
+        height: 48%;
+        width: 38%;
+        margin-left: 17%;
+        margin-top: 4%;
+        padding: 1.2%;
+        background-color: white;
+        justify-content: space-evenly;
+    }
+
+    .billede1 {
+        margin-left: 57%;
+        margin-top: -30.2%;
+    }
+
+    .sæsonboks2 {
+        display: flex;
+        margin: 1%;
+        padding: 1%;
+        background-color: #FA632A;
+        justify-content:left;
+        justify-content: space-between;
+        margin-top: -22%;
+        width: 39%;
+        margin-left: 16%;
+    }
+
+    .div3 {
+        height: 50%;
+        width: 67%;
+        margin-left: 16.5%;
+        margin-top: 2%;
+        padding: 1.2%;
+        background-color: white;
+    }
+
+    .div4 {
+        height: 50%;
+        width: 38%;
+        padding: 1.2%;
+        margin-left: 7%;
+        margin-top: 2%;
+        background-color: white;
+    }
+
+    .shoppingboks2 {
+        display: flex;
+        margin: 2%;
+        padding: 2%;
+        background-color: #F97ECF;
+        justify-content: center;
+        margin-left: 60%;
+        width: 30%;
+        margin-top: -15%;
+    }
+
+    .shoppingboks4 {
+        display: flex;
+        margin: 2%;
+        padding: 2%;
+        justify-content: center;
+        background-color: #FA632A;
+        margin-left: 12%;
+        width: 30%;
+        margin-top: -40%;
+        margin-bottom: 10%;
+    }
+
+    .div5 {
+        height: 48%;
+        width: 39%;
+        padding: 1%;
+        margin-top: 10%;
+        margin-left: 55%;
+        background-color: white;
+        margin-top: 8%;
+    }
+
+    .forsideholder {
+        display: flex;
+        background-color: #E1F1FF;
+        justify-content: space-evenly;
+      }
+      
+      .forsideholder > div {
+        background-color: #88BCEC;
+        text-align: center;
+        height: 50%;
+        width: 20%;
+        margin: 1%;
+        padding: 1%;
+        font-size: 30pt;
+      }
+
+      .forsideholder > div > p {
+        text-align: center;
+        color: white;
+        line-height: 1.4;
+      }
